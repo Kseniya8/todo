@@ -1,0 +1,38 @@
+body {
+    height: 650px;
+    background: linear-gradient(45deg, #f2fc94, #ffb3dd);
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: rgb(161, 20, 91)
+}
+
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span.completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    color:rgb(161, 20, 91);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #ffeef8;
+    padding: 1rem;
+}
+
+.todo i {
+    z-index: 2;
+}
